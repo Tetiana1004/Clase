@@ -1,0 +1,130 @@
+.body{
+    background-color: rgb(0, 0, 0);
+}
+
+.div-1{
+background-color: rgb(0, 141, 211);
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line:underline;
+  text-decoration-color: rgb(253, 253, 253);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }  
+
+   h3{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    }
+    p{
+    color: black;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(166, 221, 255);
+    width: 1000px;
+    border: 10px solid rgb(53, 21, 165);
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 60px;
+  }
+    
+}
+
+
+.div-2{
+background-color: rgb(178, 9, 201);
+    iframe{
+    margin-left: 250px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(253, 253, 253);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+      }  
+
+}
+
+.div-3{
+    background-color: rgb(201, 0, 164);
+    h1{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration-line:underline;
+        text-decoration-color: rgb(253, 253, 253);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+     }
+    p{
+        color: black;
+        text-align:left;
+        font-family: "Lucida Console", "Courier New", monospace;
+        background-color: rgb(166, 221, 255);
+        width: 300px;
+        padding: 20px;
+        margin-left: 200px;
+        margin-right: 60px;
+    }
+    button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    a{
+        margin-left: 800px;
+        margin-right: 60px;
+        width: 1000px;
+    }
+}
+
+.div-4{
+    h1{
+        color: rgb(0, 3, 163);
+        text-align: center;
+        text-decoration-line:underline;
+        text-decoration-color: rgb(7, 18, 83);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+     }
+
+     iframe-1{
+    
+        left: 10%;
+        margin-left: 20%;
+        border: 30px
+     }
+     iframe-2{
+
+        right:10%; 
+        margin-left: 80%;
+       
+     }
+
+}
+
+.div-5{
+img{
+    right: 100px;
+    margin-right: auto;
+}
+p{
+    color: rgb(21, 6, 60);
+    text-align: right;
+    text-decoration-color: rgb(253, 253, 253);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+
+}
+
+
+}
