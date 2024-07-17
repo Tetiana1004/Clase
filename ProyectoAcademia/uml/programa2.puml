@@ -1,0 +1,15 @@
+@startuml
+
+Nota:nota1,nota2 ,nota3
+
+Nota-->BD : coment
+
+BD-->Arena
+
+
+
+
+
+
+
+@enduml

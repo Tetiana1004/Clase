@@ -1,0 +1,16 @@
+@startuml   enlaces_registro  
+
+[*]-->Registros
+Registros: rutas de los enlaces
+
+state Enlaces{
+Registro: estudiantes
+Registro : profesores
+Consultas : mixta
+
+}
+Registros--> Enlaces
+Enlaces--> Otros :va a otros enlaces
+Otros-->[*]
+
+@enduml

@@ -1,0 +1,9 @@
+CREATE DATABASE academia;
+USE academia;
+CREATE table userdatos(
+    nombre_profesor VARCHAR(20),
+    curso_formar VARCHAR(20),
+    horario DATE,
+    telefono INT(7),
+    novedades VARCHAR (50)
+)

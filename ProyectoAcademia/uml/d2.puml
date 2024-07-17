@@ -1,0 +1,37 @@
+@startuml
+participant Participant1 [
+    =pol1:Poli
+    ----
+    """"
+]
+
+
+participant Participant2 [
+    =pt1:Poli
+    ----
+    """"
+]
+
+participant Participant3 [
+    =pt2:Poli
+    ----
+    """"
+]
+participant Participant4 [
+    =pt3:Poli
+    ----
+    """"
+]
+
+participant Participant5 [
+    =pt4:Poli
+    ----
+    """"
+]
+
+
+
+
+
+
+@enduml

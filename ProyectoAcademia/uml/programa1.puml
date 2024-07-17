@@ -1,0 +1,22 @@
+@startuml 1
+
+
+[*]--->estudiante 
+
+ingresar: ingresar notas
+
+estudiante-right->ingresar
+
+promedio: si es mayor de 10 o menor
+
+ingresar-->promedio
+
+promedio-->apto
+promedio-->no_apto
+apto-->arudo
+arudo-->[*]
+
+
+
+
+@enduml

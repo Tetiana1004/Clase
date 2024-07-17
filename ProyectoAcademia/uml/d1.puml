@@ -1,0 +1,18 @@
+@startuml     
+ 
+Class Estructura
+{
+    Codico:1 texto
+    Datacion:1..0 tiempo
+    Materiales:1,2
+}
+
+Estructura--*Estructura :0..Sub_estructura 
+Estructura--*Estructura :1..Sub_estructura 
+
+
+
+
+
+
+@enduml

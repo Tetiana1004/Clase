@@ -1,0 +1,27 @@
+@startuml 2
+
+json object{
+"fruta":"manzana",
+"color":["roja","verde"],
+"tamaño":"grande"
+
+
+}
+  folder folder[
+    carpeta 
+    ==========
+    aqui guardo mis archibos
+  ]
+
+rectangle rectangle{
+
+
+}
+
+hexagon hexagon{
+
+
+}
+
+
+@enduml

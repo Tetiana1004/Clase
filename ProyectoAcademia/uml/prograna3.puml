@@ -1,0 +1,14 @@
+@startuml
+class notas {
+  nota 1
+  nota 2()
+}
+database BD{
+}
+notas-right->BD
+class Arena {
+}
+BD-up->Arena
+
+
+@enduml

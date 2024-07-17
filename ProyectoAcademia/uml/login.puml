@@ -1,0 +1,18 @@
+@startsalt  login 
+
+skinparam BackgroundColor Palegreen
+
+{+
+
+Login | " carlos "
+Password | " **** "
+[Cancel] | [Entrar]
+
+
+}
+
+
+
+
+
+@enduml

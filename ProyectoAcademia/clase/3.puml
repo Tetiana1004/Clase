@@ -1,0 +1,19 @@
+@startuml 3
+
+[*]--->Cliente 
+Cliente -->[*]
+Cliente: la aplicacion se usa clave 
+Cliente: el software requiere mantenimiento
+Cliente-> Servicio 
+Servicio: se realizara un login 
+Servicio: se realiza mantenimiento anual 
+Servicio-->[*]
+
+
+
+
+
+
+
+
+@enduml

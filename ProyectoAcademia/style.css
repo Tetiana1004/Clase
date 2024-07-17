@@ -1,0 +1,126 @@
+/* Establece el color de fondo del cuerpo del documento */
+body {
+    background-color: rgb(241, 229, 209);
+}
+
+/* Estilos personalizados para el contenedor principal */
+.custom-container {
+    /* Establece el color de fondo del contenedor */
+    background-color: rgb(219, 181, 181);
+    
+    /* Aplica un borde redondeado al contenedor */
+    border-radius: 10px;
+    
+    /* Añade relleno dentro del contenedor */
+    padding: 30px;
+    
+    /* Añade una sombra para dar efecto de profundidad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas de los formularios */
+.form-label {
+    /* Establece el peso de la fuente a negrita */
+    font-weight: bold;
+    
+    /* Establece el color del texto */
+    color: rgb(49, 31, 31);
+}
+
+/* Estilos para las etiquetas de las opciones de radio */
+.form-check-label {
+    /* Añade un margen a la izquierda */
+    margin-left: 10px;
+    
+    /* Establece el color del texto */
+    color: rgb(152, 112, 112);
+}
+
+/* Estilos para los botones con clase .btn-outline-dark */
+.btn-outline-dark {
+    /* Establece el ancho del botón */
+    width: 100px;
+    
+    /* Establece el color del texto */
+    color: rgb(152, 112, 112);
+    
+    /* Establece el color del borde */
+    border-color: rgb(152, 112, 112);
+}
+
+/* Estilos para los botones .btn-outline-dark cuando el cursor está sobre ellos */
+.btn-outline-dark:hover {
+    /* Establece el color de fondo */
+    background-color: rgb(152, 112, 112);
+    
+    /* Establece el color del texto */
+    color: #fff;
+}
+
+
+
+.invoice {
+    width: 750px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.invoice-header img {
+    max-width: 100px;
+}
+.invoice-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.invoice-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.invoice-section div {
+    width: 48%;
+}
+.invoice-section div p {
+    margin: 2px 0;
+}
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.invoice-table th, .invoice-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.invoice-table th {
+    background-color: #f2f2f2;
+}
+.invoice-total {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.invoice-total p {
+    margin: 5px 0;
+}
+.invoice-signature {
+    text-align: right;
+    margin-top: 50px;
+}
+.invoice-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    /* Añade un margen superior */
+    margin-top: 50px;
+    
+    /* Establece el color del texto */
+    color: rgb(152, 112, 112);
+}

@@ -1,0 +1,22 @@
+@startuml estado
+set namespaceSeparator ::
+class ingreso::tabla::Descargar{
+fecha
+concepto
+und 
+costo 
+gasto
+importe
+saldo
+
+
+}
+ingreso-->EXCEL
+note top of EXCEL
+se debe contruir una tabla
+la cual debe descargar
+end note
+
+
+
+@enduml
